@@ -1,0 +1,48 @@
+body {
+    color: rgb(225,225,225);
+    background-color: black;
+    margin: 0 5px;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.5em;
+    height: 1.75em;
+    }
+
+#artist-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#artist-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    background-color:rgb(25, 25, 25);
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+a {
+    padding-top: 10px;
+    text-decoration: none;
+    color : #fa6862;
+    font-weight: bold;
+}
+
+img, p {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+

@@ -1,0 +1,42 @@
+body {
+    height: 95vh;
+    background: url("/images/spotify-background.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+#search-artist {
+    display: block;    
+    width: 30%;    
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 60px;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-artist-btn {
+    border-radius: 5px;
+    background: #fa6862;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+}
